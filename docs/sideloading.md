@@ -7,6 +7,12 @@ First things first, you will need a compatible USB cable. You can find the one I
 #### Source: Virtual Reality Oasis
 You should now be ready to install SideQuest. Earlier I mentioned SideQuest and you are probably asking what it is. SideQuest is mainly a huge library of applications not on the Oculus Store that you can install with sideloading. It can also install applications as APK files that you can download elsewhere. If you don't know what an APK it is just like an installer for a specific app on Android which your Oculus Quest uses. There are also a few other features I will not cover in this guide.<br/><br/>Anyways, to install SideQuest just download the Windows installer from the download page below. Once downloaded, please open it and install it as you normally would with any other application. Remember to read each part of the installer. It should now be in your start menu for you to open anytime.<br/>**If you need any help with SideQuest, sideloading, etc. please join the SideQuest Discord below.**
 
+## Custom Environments
+Work in progress :construction:
+
+## Beat Saber Custom Songs
+Work in progress :construction:
+
 ## Links
 [Recommended USB cable](usbcable.md)
 <br/>[Oculus Dashboard](https://dashboard.oculus.com)
