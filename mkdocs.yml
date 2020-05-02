@@ -10,9 +10,15 @@ markdown_extensions:
   - admonition
   - toc:
       permalink: true
-  - codehilite
+  - codehilite:
+      guess_lang: False
+      use_pygments: True
+      noclasses: True
+      pygments_style: monokai
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 repo_name: pqtato-guides/pqtato-guides.github.io
 repo_url: https://github.com/pqtato-guides/pqtato-guides.github.io
+extra_css:
+  - https://cdn.jsdelivr.net/gh/fmaida/mkdocs-material-dark-theme@master/extra.css
