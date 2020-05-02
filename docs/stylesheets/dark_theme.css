@@ -4,6 +4,15 @@
 //////////////////
 */
 
+/* Added */
+div[data-md-component="toc"], a.md-icon[title*="Edit this page"] {
+  display: none !important;
+}
+
+.md-typeset h5, .md-typeset h6 {
+  color: white !important;
+}
+
 /*
 Default text color
 and background color
@@ -69,6 +78,7 @@ Arrow Left Icon
 */
 html .md-nav--primary .md-nav__title:before {
   color: #FAFAFA !important;
+  font-weight: bold !important; /* Added */
 }
 
 .md-nav__title {
