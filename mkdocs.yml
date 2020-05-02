@@ -2,11 +2,13 @@ site_name: Pqtato's Guides
 theme:
   name: 'material'
   custom_dir: 'theme'
+  features:
+    - instant
   palette:
     primary: 'green'
     accent: 'light green'
-#  icon:
-#    logo: material/book
+  icon:
+    logo: material/book
 markdown_extensions:
   - admonition
   - codehilite
