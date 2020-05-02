@@ -78,7 +78,6 @@ Arrow Left Icon
 */
 html .md-nav--primary .md-nav__title:before {
   color: #FAFAFA !important;
-  font-weight: bold !important; /* Added */
 }
 
 .md-nav__title {
