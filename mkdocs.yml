@@ -3,8 +3,8 @@ theme:
   name: 'material'
   custom_dir: 'theme'
   palette:
-    primary: 'purple'
-    accent: 'purple'
+    primary: 'green'
+    accent: 'light green'
 #  icon:
 #    logo: material/book
 markdown_extensions:
