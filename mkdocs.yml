@@ -9,6 +9,7 @@ theme:
     accent: 'light green'
   icon:
     logo: material/book
+  favicon: images/favicon.png
 markdown_extensions:
   - admonition
   - codehilite
