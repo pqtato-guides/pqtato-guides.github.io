@@ -14,3 +14,5 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+repo_name: pqtato-guides/pqtato-guides.github.io
+repo_url: https://github.com/pqtato-guides/pqtato-guides.github.io
