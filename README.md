@@ -1,1 +1,0 @@
-# pqtato-guides.github.io

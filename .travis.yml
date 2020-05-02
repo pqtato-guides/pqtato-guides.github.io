@@ -1,0 +1,14 @@
+language: python
+python: 3.6
+branches: master
+install:
+    - pip install mkdocs-material
+script:
+    - mkdocs build --verbose --clean --strict
+deploy:
+  provider: pages
+  skin_cleanup: true
+  github_token: $github_token
+  local_dir: site
+  on:
+    branch: master

@@ -1,0 +1,16 @@
+site_name: Pqtato's Guides
+theme:
+  name: material
+  palette:
+    primary: purple
+    accent: purple
+  icon:
+    logo: material/book
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - codehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
