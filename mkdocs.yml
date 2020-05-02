@@ -9,8 +9,6 @@ theme:
 #    logo: material/book
 markdown_extensions:
   - admonition
-  - toc:
-      permalink: true
   - codehilite
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
