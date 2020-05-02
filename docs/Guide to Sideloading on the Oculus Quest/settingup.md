@@ -1,4 +1,4 @@
-# Setting Up
+# Setting up for Sideloading
 ### This part of the guide will help you set up your Oculus Quest for sideloading.
 To set up sideloading please follow the video guide below. You can stop watching at *5:31*. The links from the video are down below and you will also need a [compatible USB cable](usbcable.md). The SideQuest installation part of the video is slightly outdated though. Now SideQuest just has a simple installer just like any other app. SideQuest also had a complete redesign since the video was made but it should work about the same. If you need help please join the SideQuest Discord below.
 ##### *Tip: You can make the video bigger by pressing the :material-fullscreen: button.*
