@@ -13,6 +13,10 @@ a.md-icon[title*="Edit this page"] { /* Remove edit button */
   color: white !important;
 }
 
+.md-typeset .headerlink:hover {
+  color: var(--md-accent-fg-color) !important;
+}
+
 /*
 Default text color
 and background color
