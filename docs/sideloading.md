@@ -1,6 +1,6 @@
 # Guide to Sideloading on the Oculus Quest
 !!! info
-    This page is work in progress.
+    This guide is work in progress.
 ## Setting it all up
 First things first, you will need a compatible USB cable. You can find the one I recommend towards the bottom of this page. You will also need a computer. Before we begin I would like to say this guide has been made for _Windows only_, but it could be
 adapted for other operating systems as well. <br/><br/>You will need to enable developer mode to be able to use an application called SideQuest. Don't worry, this won't do anything to your headset except for allowing you to install sideloaded
@@ -35,4 +35,4 @@ This USB cable by Anker recommended by Oculus for Oculus Link can also be used f
 <br/>[SideQuest Download](https://sidequestvr.com/setup-howto)
 <br/>[SideQuest Discord](https://discord.me/sidequestvr)
 <br/><br/><br/>
-_If you would like to update this guide to have instructions for other operating systems as well then feel free to create a pull request on GitHub._
+_If you would like to make some changes to this guide then feel free to create a pull request on GitHub._
