@@ -5,7 +5,7 @@
 */
 
 /* Added */
-div[data-md-component="toc"], a.md-icon[title*="Edit this page"] {
+a.md-icon[title*="Edit this page"] {
   display: none !important;
 }
 
