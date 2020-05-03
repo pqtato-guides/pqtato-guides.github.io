@@ -6,7 +6,7 @@ This project is the source code of [guides.pqtato.pw](https://guides.pqtato.pw) 
 2. Clone this repository on your computer
 3. In terminal or command prompt please run the following command which will install mkdocs with the material theme.
 ```
-pip install mkdocs-material
+pip3 install mkdocs-material
 ```
 
 4. Check if it installed correctly by typing
