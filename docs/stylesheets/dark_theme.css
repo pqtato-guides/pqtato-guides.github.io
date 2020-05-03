@@ -5,11 +5,11 @@
 */
 
 /* Added */
-a.md-icon[title*="Edit this page"] {
+a.md-icon[title*="Edit this page"] { /* Remove edit button */
   display: none !important;
 }
 
-.md-typeset h5, .md-typeset h6 {
+.md-typeset h5, .md-typeset h6, .md-typeset .headerlink { /* Fix colors in a few places */
   color: white !important;
 }
 
