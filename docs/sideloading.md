@@ -13,7 +13,10 @@ _Remember you can make the video bigger by pressing the :material-fullscreen: bu
 If you need any help with SideQuest, sideloading, etc. please join the SideQuest Discord below.
 
 ## Wirelessly Streaming your Oculus Quest using your PC
-Work in progress :construction:
+Using SideQuest from the setting up guide you can actually wirelessly stream your Oculus Quest to your PC. For example, you could record it with [OBS](https://obsproject.com/). This replaces using the cast feature and adds some extra settings. How it actually works is that SideQuest uses [scrcpy](https://github.com/Genymobile/scrcpy) to connect and show you the screen and SideQuest then configures scrcpy to work correctly with the Quest. Instructions for this can be found in the video guide below.<br/>
+<iframe style="border:0;width:420px;height:237px;" src="https://www.youtube.com/embed/SDljN6UqO34?start=339&end=504&modestbranding=1&rel=0" allowfullscreen></iframe>
+<br/>**Source: Cas and Chary VR**<br/>
+This video is actually just streaming section of the setting up video above that was not included in this guide. Once again if you need help please join the SideQuest Discord below.
 
 ## Custom Environments
 Work in progress :construction:
