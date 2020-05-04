@@ -2,16 +2,16 @@
 !!! info
     This guide is work in progress.
 ## Setting it all up
-First things first, you will need a compatible USB cable. You can find the one I recommend towards the bottom of this page. You will also need a computer. Before we begin I would like to say this guide has been made for _Windows only_, but it could be
-adapted for other operating systems as well. <br/><br/>You will need to enable developer mode to be able to use an application called SideQuest. Don't worry, this won't do anything to your headset except for allowing you to install sideloaded
-applications, and a few other small things we won't go over. To be able to do that please follow the video guide below. After that you can unplug the headset for now. You can find the needed links in the links section.
+Before we begin I would like to say this guide has been made for _Windows only_, but it could be adapted for other operating systems as well. Please follow the video guide below for instructions on how to sideload. You can find the needed links in the links section. The cable that they used is available right above the links.
+!!! note
+    Cas said that the cable is official but it is actually just recommended by Oculus if you are not using the Oculus Link cable.
 _Remember you can make the video bigger by pressing the :material-fullscreen: button._<br/>
-<iframe style="border:0;width:420px;height:237px;" src="https://www.youtube.com/embed/nlflUCGOuHo?start=100&end=219&modestbranding=1&rel=0" allowfullscreen></iframe>
-<br/>**Source: Virtual Reality Oasis**<br/>
-You should now be ready to install SideQuest. Earlier I mentioned SideQuest, and you are probably asking what it is. SideQuest is mainly a huge library of applications not on the Oculus Store you can install with sideloading.
-It can also install applications as APK files that you can download elsewhere. If you don't know what an APK it is just like an installer for a specific app on Android which your Oculus Quest uses.
-There are also a few other features I will not cover in this guide.<br/><br/>Anyways, to install SideQuest just download the Windows installer from the download page below. Once downloaded, please open it and install it as you normally would with any
-other application. Remember to read each part of the installer. It should now be in your start menu for you to open anytime.<br/>**If you need any help with SideQuest, sideloading, etc. please join the SideQuest Discord below.**
+<iframe style="border:0;width:420px;height:237px;" src="https://www.youtube.com/embed/SDljN6UqO34?start=0&end=325&modestbranding=1&rel=0" allowfullscreen></iframe>
+<br/>**Source: Cas and Chary VR**<br/>
+**If you need any help with SideQuest, sideloading, etc. please join the SideQuest Discord below.**
+
+## Wirelessly Streaming your Oculus Quest
+Work in progress :construction:
 
 ## Custom Environments
 Work in progress :construction:
@@ -21,8 +21,9 @@ Work in progress :construction:
 
 ## Recommended USB Cable
 This USB cable by Anker recommended by Oculus for Oculus Link can also be used for sideloading. Just choose your location for Amazon and you should be able to order one.
-**A shorter length should be fine if you do not plan to use Oculus Link with this cable.**
-<br/>[North America](https://www.amazon.com/gp/product/B01MZIPYPY/)
+!!! info
+    A shorter length should be fine if you do not plan to use Oculus Link with this cable.
+[North America](https://www.amazon.com/gp/product/B01MZIPYPY/)
 <br/>[Canada](https://www.amazon.ca/dp/B01MZIPYPY/)
 <br/>[UK](https://www.amazon.co.uk/dp/B01MZIPYPY/)
 <br/>[Japan](https://www.amazon.co.jp/dp/B01MZIPYPY/)
@@ -32,7 +33,8 @@ This USB cable by Anker recommended by Oculus for Oculus Link can also be used f
 ## Links
 [Oculus Dashboard](https://dashboard.oculus.com)
 <br/>[Oculus ADB Drivers](https://developer.oculus.com/downloads/package/oculus-adb-drivers/)
-<br/>[SideQuest Download](https://sidequestvr.com/setup-howto)
+<br/>[SideQuest Download](https://sidequestvr.com/#/setup-howto)
 <br/>[SideQuest Discord](https://discord.me/sidequestvr)
+<br/>[Quest App Launcher](https://sdq.st/a/199)
 <br/><br/><br/>
 _If you would like to make some changes to this guide then feel free to create a pull request on GitHub._
