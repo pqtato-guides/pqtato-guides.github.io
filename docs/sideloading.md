@@ -1,5 +1,5 @@
 # Guide to Sideloading on the Oculus Quest
-!!! info
+!!! note
     This guide is work in progress.
 ## Setting it all up
 Before we begin I would like to say this guide has been made for _Windows only_, but it could be adapted for other operating systems as well. Please follow the video guide below for instructions on how to sideload. You can find the needed links in the links section. The cable that they used is available right above the links.
