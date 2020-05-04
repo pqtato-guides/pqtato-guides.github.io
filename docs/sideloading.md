@@ -23,8 +23,10 @@ Work in progress :construction:
 
 ## Recommended USB Cable
 This USB cable by Anker recommended by Oculus for Oculus Link can also be used for sideloading. Just choose your location for Amazon and you should be able to order one.
+
 !!! info
     A shorter length should be fine if you do not plan to use Oculus Link with this cable.
+
 [North America](https://www.amazon.com/gp/product/B01MZIPYPY/)
 <br/>[Canada](https://www.amazon.ca/dp/B01MZIPYPY/)
 <br/>[UK](https://www.amazon.co.uk/dp/B01MZIPYPY/)
