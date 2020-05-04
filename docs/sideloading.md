@@ -12,7 +12,7 @@ _Remember you can make the video bigger by pressing the :material-fullscreen: bu
 <br/>**Source: Cas and Chary VR**<br/>
 If you need any help with SideQuest, sideloading, etc. please join the SideQuest Discord below.
 
-## Wirelessly Streaming your Oculus Quest
+## Wirelessly Streaming your Oculus Quest using your PC
 Work in progress :construction:
 
 ## Custom Environments
