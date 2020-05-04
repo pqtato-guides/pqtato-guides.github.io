@@ -31,7 +31,7 @@ To port forward with Google Fiber it is actually more simple than most other rou
 11. Click "Apply" and be patient for a few minutes. If it does not seem to work restart the network box in the "Admin" tab next to the "Ports" tab.
 
 ### TP-Link
-To port forward on TP-Link routers please follow the instructions on [TP-Link support by clicking here](https://www.tp-link.com/us/support/faq/). Select Routers :arrow_right: WiFi Routers :arrow_right: Port Forwarding/Virtual Servers and select the FAQ the applies to your router. It should say the model number on the router.
+To port forward on TP-Link routers please follow the instructions on [TP-Link support by clicking here](https://www.tp-link.com/us/support/faq/). Select Routers :arrow_right: WiFi Routers :arrow_right: Port Forwarding/Virtual Servers and select the FAQ that applies to your router. It should say the model number on the router.
 
 ### Netgear
 To port forward on Netgear routers please [click here](https://kb.netgear.com/24290/a).
