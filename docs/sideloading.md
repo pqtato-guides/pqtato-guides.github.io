@@ -3,12 +3,14 @@
     This guide is work in progress.
 ## Setting it all up
 Before we begin I would like to say this guide has been made for _Windows only_, but it could be adapted for other operating systems as well. Please follow the video guide below for instructions on how to sideload. You can find the needed links in the links section. The cable that they used is available right above the links.
+
 !!! note
     Cas said that the cable is official but it is actually just recommended by Oculus if you are not using the Oculus Link cable.
+
 _Remember you can make the video bigger by pressing the :material-fullscreen: button._<br/>
 <iframe style="border:0;width:420px;height:237px;" src="https://www.youtube.com/embed/SDljN6UqO34?start=0&end=325&modestbranding=1&rel=0" allowfullscreen></iframe>
 <br/>**Source: Cas and Chary VR**<br/>
-**If you need any help with SideQuest, sideloading, etc. please join the SideQuest Discord below.**
+If you need any help with SideQuest, sideloading, etc. please join the SideQuest Discord below.
 
 ## Wirelessly Streaming your Oculus Quest
 Work in progress :construction:
