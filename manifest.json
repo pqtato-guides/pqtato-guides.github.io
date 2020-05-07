@@ -1,0 +1,15 @@
+{
+  "short_name": "Pqtato's Guides",
+  "name": "Pqtato's Guides",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#212121",
+  "theme_color": "#212121",
+  "start_url": "/",
+  "display": "standalone"
+}

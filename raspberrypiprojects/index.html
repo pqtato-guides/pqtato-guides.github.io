@@ -1,0 +1,635 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1, mkdocs-material-5.1.5">
+    
+    
+      
+        <title>Raspberry Pi Projects - Pqtato's Guides</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.df84b5fe.min.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/palette.8435c73a.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#4caf50">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../stylesheets/dark_theme.css">
+    
+      <link rel="stylesheet" href="../stylesheets/codehilite.css">
+    
+    
+      
+    
+    
+<meta name="theme-color" content="#212121">
+
+<link rel='icon' href='/assets/images/favicon.ico'>
+
+<meta name='apple-mobile-web-app-capable' content='yes'>
+<meta name='mobile-web-app-capable' content='yes'>
+<link rel="manifest" href="/manifest.json">
+
+  </head>
+  
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="green" data-md-color-accent="light-green">
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#raspberry-pi-projects" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href=".." title="Pqtato's Guides" class="md-header-nav__button md-logo" aria-label="Pqtato's Guides">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 22a2 2 0 002-2V4a2 2 0 00-2-2h-6v7L9.5 7.5 7 9V2H6a2 2 0 00-2 2v16a2 2 0 002 2h12z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Pqtato's Guides
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Raspberry Pi Projects
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/pqtato-guides/pqtato-guides.github.io/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    pqtato-guides/pqtato-guides.github.io
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Pqtato's Guides" class="md-nav__button md-logo" aria-label="Pqtato's Guides">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 22a2 2 0 002-2V4a2 2 0 00-2-2h-6v7L9.5 7.5 7 9V2H6a2 2 0 00-2 2v16a2 2 0 002 2h12z"/></svg>
+
+    </a>
+    Pqtato's Guides
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/pqtato-guides/pqtato-guides.github.io/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    pqtato-guides/pqtato-guides.github.io
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../portforwarding/" title="Guide to Port Forwarding" class="md-nav__link">
+      Guide to Port Forwarding
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Raspberry Pi Projects
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="Raspberry Pi Projects" class="md-nav__link md-nav__link--active">
+      Raspberry Pi Projects
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#turn-your-old-speakers-into-bluetooth-airplay-and-spotify-receivers" class="md-nav__link">
+    Turn your old speakers into Bluetooth, Airplay, and Spotify receivers
+  </a>
+  
+    <nav class="md-nav" aria-label="Turn your old speakers into Bluetooth, Airplay, and Spotify receivers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#required-hardware" class="md-nav__link">
+    Required Hardware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#required-software" class="md-nav__link">
+    Required software
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setting-up-your-pi" class="md-nav__link">
+    Setting up your Pi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deploy-the-project-code" class="md-nav__link">
+    Deploy the project code
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#connect-your-speakers" class="md-nav__link">
+    Connect your speakers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-balenasound" class="md-nav__link">
+    Using balenaSound
+  </a>
+  
+    <nav class="md-nav" aria-label="Using balenaSound">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#with-bluetooth" class="md-nav__link">
+    With Bluetooth
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#with-airplay" class="md-nav__link">
+    With AirPlay
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#with-spotify-connect" class="md-nav__link">
+    With Spotify Connect
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#links" class="md-nav__link">
+    Links
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../sideloading/" title="Guide to Sideloading on the Oculus Quest" class="md-nav__link">
+      Guide to Sideloading on the Oculus Quest
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#turn-your-old-speakers-into-bluetooth-airplay-and-spotify-receivers" class="md-nav__link">
+    Turn your old speakers into Bluetooth, Airplay, and Spotify receivers
+  </a>
+  
+    <nav class="md-nav" aria-label="Turn your old speakers into Bluetooth, Airplay, and Spotify receivers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#required-hardware" class="md-nav__link">
+    Required Hardware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#required-software" class="md-nav__link">
+    Required software
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setting-up-your-pi" class="md-nav__link">
+    Setting up your Pi
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deploy-the-project-code" class="md-nav__link">
+    Deploy the project code
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#connect-your-speakers" class="md-nav__link">
+    Connect your speakers
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#using-balenasound" class="md-nav__link">
+    Using balenaSound
+  </a>
+  
+    <nav class="md-nav" aria-label="Using balenaSound">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#with-bluetooth" class="md-nav__link">
+    With Bluetooth
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#with-airplay" class="md-nav__link">
+    With AirPlay
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#with-spotify-connect" class="md-nav__link">
+    With Spotify Connect
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#links" class="md-nav__link">
+    Links
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/pqtato-guides/pqtato-guides.github.io/edit/master/docs/raspberrypiprojects.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                  
+                
+                
+                <h1 id="raspberry-pi-projects">Raspberry Pi Projects<a class="headerlink" href="#raspberry-pi-projects" title="Permanent link">&para;</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This guide is work in progress.</p>
+</div>
+<h2 id="turn-your-old-speakers-into-bluetooth-airplay-and-spotify-receivers">Turn your old speakers into Bluetooth, Airplay, and Spotify receivers<a class="headerlink" href="#turn-your-old-speakers-into-bluetooth-airplay-and-spotify-receivers" title="Permanent link">&para;</a></h2>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>This project is from <a href="https://www.balena.io/blog/turn-your-old-speakers-or-hi-fi-into-bluetooth-receivers-using-only-a-raspberry-pi/">Balena's blog</a>. More information can be found there.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you need help please create an issue on <a href="https://github.com/balenalabs/balena-sound/issues">their GitHub repository</a>.</p>
+</div>
+<h3 id="required-hardware">Required Hardware<a class="headerlink" href="#required-hardware" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Raspberry Pi 4B, 3A+, 3B, or 3B+</li>
+<li>A microSD card</li>
+<li>Power supply (USB C with Pi 4B and Micro USB with 3A+, 3B, or 3B+)</li>
+<li>Speakers (you may need a 3.5mm audio cable)</li>
+</ul>
+<h3 id="required-software">Required software<a class="headerlink" href="#required-software" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Software to flash an SD card. I recommend <a href="https://balena.io/etcher">balenaEtcher</a>.</li>
+<li>Node.js</li>
+<li>A <a href="https://balena.io/cloud">balenaCloud</a> account</li>
+<li>The <a href="https://github.com/balena-io/balena-cli/blob/master/INSTALL.md">balena CLI tools</a>.</li>
+</ul>
+<h3 id="setting-up-your-pi">Setting up your Pi<a class="headerlink" href="#setting-up-your-pi" title="Permanent link">&para;</a></h3>
+<p>Work in progress <img alt="🚧" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f6a7.svg" title=":construction:" /></p>
+<h3 id="deploy-the-project-code">Deploy the project code<a class="headerlink" href="#deploy-the-project-code" title="Permanent link">&para;</a></h3>
+<p>Work in progress <img alt="🚧" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f6a7.svg" title=":construction:" /></p>
+<h3 id="connect-your-speakers">Connect your speakers<a class="headerlink" href="#connect-your-speakers" title="Permanent link">&para;</a></h3>
+<p>Work in progress <img alt="🚧" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f6a7.svg" title=":construction:" /></p>
+<h3 id="using-balenasound">Using balenaSound<a class="headerlink" href="#using-balenasound" title="Permanent link">&para;</a></h3>
+<h4 id="with-bluetooth">With Bluetooth<a class="headerlink" href="#with-bluetooth" title="Permanent link">&para;</a></h4>
+<p>Your balenaSound device should appear in the Bluetooth settings on your device. Connect to it and start playing some music.</p>
+<h4 id="with-airplay">With AirPlay<a class="headerlink" href="#with-airplay" title="Permanent link">&para;</a></h4>
+<p>balenaSound supports Apple AirPlay. On a compatible device select balenaSound as the AirPlay device.</p>
+<h4 id="with-spotify-connect">With Spotify Connect<a class="headerlink" href="#with-spotify-connect" title="Permanent link">&para;</a></h4>
+<p><strong>This only works with Spotify Premium.</strong> balenaSound also supports Spotify Connect. In Spotify you should be able to select balenaSound under the devices menu.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Spotify will also show compatible Bluetooth and Airplay devices so balenaSound may show up 3 times. Look at the device's icon to identify which one is correct.</p>
+</div>
+<h2 id="links">Links<a class="headerlink" href="#links" title="Permanent link">&para;</a></h2>
+<p><a href="https://balena.io/etcher">balenaEtcher</a> for flashing SD cards
+<br/><a href="https://www.raspberrypi.org/products/type-c-power-supply/">USB-C power supply</a> for Raspberry Pi 4
+<br/><a href="https://www.raspberrypi.org/products/raspberry-pi-universal-power-supply/">Micro USB power supply</a> for Raspberry Pi 1, 2, and 3
+<br/><a href="https://amzn.to/2AbJKbb">Ethernet cable</a> for connecting to the internet
+<br/><a href="https://www.pishop.us/">PiShop.us</a> for finding Raspberry Pi products (not sponsored)
+<br/><a href="https://nodejs.org/en/">Node.js</a> download (make sure to use LTS)
+<br/>The <a href="https://www.raspberrypi.org">Raspberry Pi website</a>.
+<br/><br/><br/>
+<em>If you would like to make some changes to this guide then feel free to create a pull request on GitHub. The repository can be found in the top right.</em></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../portforwarding/" title="Guide to Port Forwarding" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Guide to Port Forwarding
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../sideloading/" title="Guide to Sideloading on the Oculus Quest" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Guide to Sideloading on the Oculus Quest
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/vendor.83fe6e3c.min.js"></script>
+      <script src="../assets/javascripts/bundle.7e1cb91c.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "..",
+          features: ["instant"],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.37585f48.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
